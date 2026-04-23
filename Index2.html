@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Para ti ❤️</title>
+
+<style>
+body {
+  background: linear-gradient(135deg, #ffc0cb, #ff9eb5, #f8a5c2);
+  color: #2b2b2b;
+  font-family: Arial;
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  margin-top: 40px;
+  font-size: 40px;
+  color: #8b004f;
+}
+
+p {
+  font-size: 18px;
+  max-width: 600px;
+  margin: auto;
+  white-space: pre-line;
+}
+
+.section {
+  margin: 50px auto;
+  padding: 20px;
+  background: #ffd6e0;
+  border: 3px solid black;
+  border-radius: 20px;
+  max-width: 700px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+/* 🔥 TARJETAS */
+.card {
+  width: 250px;
+  height: 250px;
+  perspective: 1000px;
+  display: inline-block;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.card-inner {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+/* 💌 VOLTEO */
+.card.flipped .card-inner {
+  transform: rotateY(180deg);
+}
+
+/* ✨ ZOOM */
+.card:hover .card-inner {
+  transform: scale(1.08);
+}
+
+.card-front, .card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  backface-visibility: hidden;
+}
+
+.card-front img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  box-shadow: 0 0 10px #ff69b4;
+}
+
+.card-back {
+  background: #ffd6e0;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  transform: rotateY(180deg);
+  font-size: 14px;
+  border: 2px solid black;
+}
+
+iframe {
+  margin-top: 15px;
+  border-radius: 15px;
+}
+</style>
+</head>
+
+<body>
+
+<h1>Para ti ❤️</h1>
+
+<div class="section">
+<p>
+Mi niña, Mi Princesita, Mi Bobita, Mi Mundo ❤️
+
+Primero que nada, Feliz Primer mes mi Bebita, No tienes idea de lo mucho que has significado para mí en tan poco tiempo. Es loco pensar que un dia solo dije que me rindo en el amor, pero llegaste a mi vida de una manera muy fugaz, y poco a poco te fuiste metiendo en todo… en cada pensamiento, en cada idea, en cada sueño, en cada oración, en cada días, en cada ganas de sonreír por recordar tu carita preciosa.
+
+A veces me quedo pensando en ti y no puedo evitar sonrojarme como tonto...
+Porque eres aquella persona que no sabía que necesitaba, pero ahora no quiero perderte nunca.
+
+Mi esposita, me encanta cada cosa de ti… tu forma de hablar, tus detalles, tu manera de hacerme sentir especial incluso cuando no te das cuenta. Hasta cuando eres mensita me encantas, y no te lo digo por molestar... te lo digo porque contigo todo se siente más lindo, cómodo, y sobre todo, acogedor.
+
+Gracias por tu carta, tus palabras, tus dedicadas, tu tiempo... de verdad. No fueron solo detalles, fue algo que me llegó demasiado a mi corazon de pollo. Se siente cuando alguien hace algo con amor, con cariño, con ternura, con respeto, con su corazon, y tu mi vida, me rompiste porque no me lo esperaba.
+
+Y sí... tal vez suene loco, suene "apresurado", pero me gusta imaginar cosas contigo. Me gusta pensar en un futuro donde estemos juntos, cumpliendo nuestras metas, apoyándonos en todo, creciendo poco a poco sin apurarnos, y más importante sin olvidarnos.
+
+Imaginar una casita grande y rosita, nuestras cosas, nuestras risas... incluso una familia. Suena muy bobo y cursi, lo sé... pero contigo no se siente imposible, se siente esperanzador :'3
+
+Quiero estar en tus logros, en tus días buenos y en los no tan buenos. Quiero ser ese lugar donde puedas estar tranquila… donde puedas ser tú sin miedo a ser juzgada, conmigo puedes contar en todo <3
+
+Mi pastelita, esto que tenemos es algo que quiero cuidar de verdad. No es solo “el primer mes”... es el inicio de algo que quiero que dure mucho, mucho tiempo hasta incluso traspasando la muerte.
+
+Y si algún día dudas, si algo se complica... o no estás pasando por un buen momento conmigo, quiero que recuerdes que la comunicación ante todo. Yo valoro mucho cuando me cuentan las cosas y no se las reservan para lidiar todo el peso ellos mismos.
+
+Yo siempre te elegiré a ti mi amor, no como una opción, sino como mi universo, ya que sin ti no quiero vivir amor.
+
+Porque yo... te elijo a ti! (Referencia a Pokémon, lo sé, maldito friki de mrd que soy)
+Ayer, Hoy, Mañana, y en el futuro, solo seremos tú y yo.
+
+Gracias por tomarte el tiempito de leer nena, te adoro como no tienes idea sdjksd, mwah <3
+</p>
+</div>
+
+<div class="section">
+<h2>Us?(las imagenes se voltean con click creo- AJSKJAS) 💗</h2>
+
+<!-- 💡 IMAGEN 1 -->
+<div class="card" onclick="this.classList.toggle('flipped')">
+  <div class="card-inner">
+    <div class="card-front">
+      <img src="https://i.pinimg.com/736x/db/f3/79/dbf379ffc38887a54cfbdf998020ded4.jpg">
+    </div>
+    <div class="card-back">
+      <p>Por que Obvio Gatito y Perrito no podian falta, verdad? 💖</p>
+    </div>
+  </div>
+</div>
+
+<!-- 💡 IMAGEN 2 -->
+<div class="card" onclick="this.classList.toggle('flipped')">
+  <div class="card-inner">
+    <div class="card-front">
+      <img src="https://i.pinimg.com/736x/0b/74/47/0b744790ef2e656de0dfa6e49d1cc734.jpg">
+    </div>
+    <div class="card-back">
+      <p>Algun dia Yo se que nos casaremos mi bebe hermosa 💕</p>
+    </div>
+  </div>
+</div>
+
+<!-- 💡 IMAGEN 3 -->
+<div class="card" onclick="this.classList.toggle('flipped')">
+  <div class="card-inner">
+    <div class="card-front">
+      <img src="https://i.pinimg.com/736x/c3/6e/84/c36e84cf11a0a232d2f6b526780fc6d5.jpg">
+    </div>
+    <div class="card-back">
+      <p>Como el Jin y el Jan, perfectamente equilibrado y hermoso 💕</p>
+    </div>
+  </div>
+</div>
+
+<!-- 💡 IMAGEN 4 -->
+<div class="card" onclick="this.classList.toggle('flipped')">
+  <div class="card-inner">
+    <div class="card-front">
+      <img src="https://i.pinimg.com/1200x/bb/06/ce/bb06cea86e2537634933cf0dcffc235f.jpg">
+    </div>
+    <div class="card-back">
+      <p>Pelearia contra quien sea que te moleste y nos defenderia asi como Jonathan a Erina 💕</p>
+    </div>
+  </div>
+</div>
+
+<!-- 💡 IMAGEN 5 -->
+<div class="card" onclick="this.classList.toggle('flipped')">
+  <div class="card-inner">
+    <div class="card-front">
+      <img src="https://i.pinimg.com/1200x/09/9a/6b/099a6b4cc0bd2f4bb730ea2d8893d709.jpg">
+    </div>
+    <div class="card-back">
+      <p>En otro mundo somos furros, pero tu sigues igual de hermosa mi preciosa princesita 💕</p>
+    </div>
+  </div>
+</div>
+
+<!-- 💡 IMAGEN 6 -->
+<div class="card" onclick="this.classList.toggle('flipped')">
+  <div class="card-inner">
+    <div class="card-front">
+      <img src="https://i.pinimg.com/736x/a0/59/b4/a059b43de722056139778c854ef6b882.jpg">
+    </div>
+    <div class="card-back">
+      <p>Incluso en el que somos asesinos puedo decirte que te amo de aqui al infinito /le muerde la cara pq no sabe besar 💕</p>
+    </div>
+  </div>
+</div>
+
+<!-- 💡 IMAGEN 7 -->
+<div class="card" onclick="this.classList.toggle('flipped')">
+  <div class="card-inner">
+    <div class="card-front">
+      <img src="https://i.pinimg.com/736x/01/01/d0/0101d0d507a0578d73f4cdd841fa26d5.jpg">
+    </div>
+    <div class="card-back">
+      <p>Quiero, amo y adoro cargarte, dejame hacerlo en esta y las proximas vidas cariño 💕</p>
+    </div>
+  </div>
+</div>
+
+<!-- 💡 IMAGEN 8 -->
+<div class="card" onclick="this.classList.toggle('flipped')">
+  <div class="card-inner">
+    <div class="card-front">
+      <img src="https://i.pinimg.com/736x/da/cd/61/dacd61dcdc241c362d2d2126d6f8421b.jpg">
+    </div>
+    <div class="card-back">
+      <p>Te besaria la frente cuantas veces sean necesarias, te lameria y morderia para que entiendas cuanto amor siento por ti, linda 💕</p>
+    </div>
+  </div>
+</div>
+
+<!-- DUPLICA ESTE BLOQUE PARA MÁS IMÁGENES -->
+
+</div>
+
+<div class="section">
+<h2>Escuchala jsjs, tambien debia dedicarte una, y esta es muy especial para mi</h2>
+
+<iframe width="300" height="200"
+src="https://www.youtube.com/embed/Giz8aiJhENA"
+allow="autoplay; encrypted-media"
+allowfullscreen>
+</iframe>
+
+<p>
+Si no carga la imagen, ábrela aquí beibi:
+<a href="https://www.youtube.com/watch?v=MyEHMT57DaE" target="_blank">
+Cancioncita ñoña de Sergi, Bye 💕
+</a>
+</p>
+
+</div>
+
+</body>
+</html>
